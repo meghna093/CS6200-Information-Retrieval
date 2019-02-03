@@ -1,0 +1,55 @@
+Top 50 pages by their Document IDs and Inlinks 
+****************************************************************************************************
+
+
+Document ID: Inlink Count 
+International_Standard_Book_Number : 447
+Digital_object_identifier : 357
+Tropical_cyclone : 322
+Bibcode : 246
+National_Oceanic_and_Atmospheric_Administration : 206
+National_Hurricane_Center : 195
+NASA : 194
+United_States_dollar : 178
+Extratropical_cyclone : 174
+International_Space_Station : 171
+International_Standard_Serial_Number : 160
+Saffir%E2%80%93Simpson_scale : 159
+Storm_surge : 159
+Hurricane_Isabel : 152
+Eye_(cyclone) : 152
+Wind_shear : 144
+Florida : 144
+Canada : 142
+Hurricane_Katrina : 142
+Hurricane_Wilma : 141
+Atlantic_Ocean : 140
+National_Weather_Service : 131
+List_of_retired_Atlantic_hurricane_names : 127
+Tropical_wave : 126
+PubMed_Identifier : 123
+Hurricane_Andrew : 121
+North_Carolina : 120
+Hurricane_Camille : 120
+World_Meteorological_Organization : 119
+Mexico : 119
+Hurricane_Mitch : 118
+Hurricane_Rita : 118
+Hurricane_Allen : 118
+Hurricane_Ivan : 117
+National_Diet_Library : 117
+Gulf_of_Mexico : 114
+Hurricane_Gilbert : 114
+Japan : 113
+Hurricane_Sandy : 112
+Hurricane_Hugo : 111
+Hurricane_Hazel : 111
+Hurricane_David : 111
+Hurricane_Dean : 109
+Hurricane_Felix : 109
+Hurricane_Janet : 108
+Hurricane_Juan : 107
+Virginia : 107
+Hurricane_Matthew : 106
+Hurricane_Anita : 105
+Hurricane_Hattie : 105

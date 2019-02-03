@@ -1,0 +1,71 @@
+INFORMATION RETRIEVAL
+HOMEWORK - 1
+
+######################################################################
+
+This assignment is coded using Python version 3.4.6
+The given seed is "https://en.wikipedia.org/wiki/Tropical_cyclone"
+
+The following libraries needs to be installed to run the code successfully:
+
+	->BS4
+	->re
+	->urllib
+	->time
+	
+######################################################################
+
+In order to install python module through command prompt, the following command should be used
+
+python <filename> install
+
+######################################################################
+
+STEPS TO RUN THE PROGRAM :
+
+I have combined Task 1 and Task 2 into a single program. 
+In order to run the Task 1 part of the assignment please select 'n' while prompted for keyword.
+In order to run the Task 2 part of the assignment please select 'y' when prompted for keyword.
+
+
+STEP 1:
+	Running the program through command prompt : python3.6 <filename>.python
+
+STEP 2:
+	Program asks whether the user wants to crawl with a key word: 
+	
+	"Crawl using a key word?[y/n]" : 					-> STEP 2.1:
+											If 'y', 
+											Program will start the crawler with the key word "rain"
+											
+											"Crawling started with the key word rain"
+											
+										-> STEP 2.2:
+											If 'n'
+											Program will continue to crawl without a key word
+
+STEP 3:
+	Once crawling is completed a list of links to its respective web pages will be provided
+	
+######################################################################
+
+The following resources were used to off the internet to develop this program
+
+	-> https://www.youtube.com/watch?v=sZyAn2TW7GY
+	-> https://www.youtube.com/watch?v=GEshegZzt3M
+	-> http://stackoverflow.com/questions/1936466/beautifulsoup-grab-visible-webpage-text
+	-> https://www.youtube.com/channel/UCJbPGzawDH1njbqV-D5HqKw
+	
+######################################################################
+
+OUTPUT:
+
+TASK-1:
+	DEPTH REACHED   : 03 
+	Number of links : 1000
+	
+TASK-2:
+	DEPTH REACHED   : 02
+	Number of links : 835
+	
+																    

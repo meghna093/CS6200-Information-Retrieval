@@ -1,0 +1,23 @@
+STATISTICS OF G1 AND G2
+			
+##########################################################################
+
+G1 statistic summary:
+
+Total number of pages  = 1000
+
+Proportion of pages with no in-links = 0.0
+						   
+Proportion of pages with no out-links = 0.066
+						 
+##########################################################################
+
+G2 statistic summary:
+
+Total number of pages  = 1000
+
+Proportion of pages with no in-links = 0.0
+						   
+Proportion of pages with no out-links = 0.009
+
+##########################################################################

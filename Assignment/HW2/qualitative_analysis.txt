@@ -1,0 +1,71 @@
+G1:
+
+Top 10 pages by Page Rank:
+
+1	International_Standard_Book_Number   : 0.05246102217707066
+2	Digital_object_identifier            : 0.04268962331870961
+3	International_Standard_Serial_Number : 0.03420813118914564
+4	National_Diet_Library                : 0.024287131039273675
+5	Bibcode                              : 0.01957650795537808
+6	World_War_II                         : 0.016703009108857983
+7	PubMed_Identifier                    : 0.016423047336872845
+8	Canada                               : 0.01608334476723428
+9	Japan                                : 0.014717579375080283
+10	OCLC                                 : 0.014521844604634545
+
+Top 10 pages by in-link counts:
+
+1	International_Standard_Book_Number              : 447
+2	Digital_object_identifier                       : 357
+3	Tropical_cyclone                                : 322
+4	Bibcode                                         : 246
+5	National_Oceanic_and_Atmospheric_Administration : 206
+6	National_Hurricane_Center                       : 195
+7	NASA                                            : 194
+8	United_States_dollar                            : 178
+9	Extratropical_cyclone                           : 174
+10	International_Space_Station                     : 171
+
+###########################################################################################################################
+
+G2:
+
+Top 10 pages by Page Rank:
+
+1	International_Standard_Book_Number   : 0.05012905846031423
+2	Digital_object_identifier            : 0.04629944428063267
+3	International_Standard_Serial_Number : 0.0373882997451595
+4	National_Diet_Library                : 0.025375672090308422
+5	Bibcode                              : 0.01862043882922139
+6	OCLC                                 : 0.01643940834696184
+7	PubMed_Identifier                    : 0.016368132661352945
+8	Japan                                : 0.015358440166987236
+9	World_War_II                         : 0.014924709431838027
+10	United_States                        : 0.011488479103684784
+
+Top 10 pages by Page Rank and in-link counts:
+
+1	United_States                      : 466
+2	International_Standard_Book_Number : 357
+3	Breaux_Greer                       : 350
+4	Adam_Nelson                        : 287
+5	Angelo_Taylor                      : 287
+6	Amy_Acuff                          : 287
+7	Tom_Pappas                         : 285
+8	Terrence_Trammell                  : 285
+9	Abdihakem_Abdirahman               : 285
+10	Deena_Kastor                       : 283
+
+###########################################################################################################################
+
+Page rank is one of the most important factor when it comes to ranking a web search or the web pages crawled by a web crawler. There are many ways to determine the page rank of a particular web page. One way is to calculate the number of inlinks the web page has.
+Inlinks are nothing but one page referring another page through hyperlinks or anchor texts. We should also consider the fact that if a page has 2 inlinks from 2 most popular web pages and another page has 10 inlinks from not so popular web pages, in this scenario the page with 2 inlinks from most popular web pages will have higher page rank than the page with 10 inlinks. This is because we should not only consider the number of inlinks we should also check the importance of those inlinks. 
+The importance of the inlinks is important because many spammers create fake inlinks to their web pages to improve its page rank by increasing the count of inlinks. In such scenarios, a web page which is of least importance can be ranked high. So while crawling the web and ranking the crawled web pages the factors to consider are, number of inlinks and the importance of those inlinks.
+The above scenario can be observed in G1 top 10 pages with page rank and top 10 pages with inlinks. There are pages with high inlink counts but are not ranked with higher page rank. This might be because of the above explained scenario.
+One more factor to be considered while ranking web pages are the number of outlinks. If the page which is inlink to another page has large number of outlinks, then the page rank of the page to which the inlink points to has lower chances of contributing towards its rank.
+Above there are 2 result sets, one set obtained by using breadth first search based crawler which is G1. Other set is obtained by using depth first search based crawler which is G2.
+We can see a huge difference between these two result sets. In result set of G1 we can see that the top 10 pages with page rank is different than the top 10 pages with inlink counts. This might be because of any one of the factors discussed above.
+In result set of G2 we can see there is a lot of difference between the top 10 pages by page rank and top 10 pages by inlink counts. This might also be because of one of the factors discussed above. But considering the efficiency part we can see that web crawler based on breadth first search has a better ranked web pages than the web crawler based on depth first search, since there is little difference between the top 10 pages by page rank and top 10 pages by inlink counts of G1 set. 
+A better approach would be to use breadth first search based web crawler which yields better results.
+
+###########################################################################################################################

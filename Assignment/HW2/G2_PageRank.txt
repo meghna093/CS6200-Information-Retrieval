@@ -1,0 +1,55 @@
+Top 50 pages by their Document IDs and Page Ranks 
+****************************************************************************************************
+
+
+Document ID: Page Rank 
+International_Standard_Book_Number : 0.05012905846031423
+Digital_object_identifier : 0.04629944428063267
+International_Standard_Serial_Number : 0.0373882997451595
+National_Diet_Library : 0.025375672090308422
+Bibcode : 0.01862043882922139
+OCLC : 0.01643940834696184
+PubMed_Identifier : 0.016368132661352945
+Japan : 0.015358440166987236
+World_War_II : 0.014924709431838027
+United_States : 0.011488479103684784
+Nature_(journal) : 0.009432707208332045
+Australia : 0.0058385393588289
+Tropical_cyclone : 0.005511176871176174
+China : 0.005280621461042166
+Science_(journal) : 0.004857420828105031
+Pacific_Ocean : 0.004808587302543619
+Mexico : 0.004803158338222351
+National_Oceanic_and_Atmospheric_Administration : 0.004118303031860921
+United_States_Navy : 0.0038977693996471406
+New_York_City : 0.0038777148624553445
+Philippines : 0.0036743591843625203
+Professional_wrestling : 0.0033763620062951184
+Brazil : 0.003265260835588512
+Breaux_Greer : 0.0028162753179242933
+Atlantic_Ocean : 0.002696161518033229
+National_Weather_Service : 0.002602997230320755
+Earth : 0.002490086297357646
+BBC : 0.002438998248125421
+Bangladesh : 0.0023964817174378836
+International_Association_of_Athletics_Federations : 0.0022855878772077673
+Equator : 0.002265475526124601
+Madagascar : 0.0021927129627018903
+Guam : 0.0021732479238722366
+Tornado : 0.0021572274671729764
+Hawaii : 0.002113448470405555
+Precipitation_(meteorology) : 0.0020876916834770137
+Gulf_of_Mexico : 0.0020685743278602738
+Wikisource : 0.00203199448658806
+Typhoon : 0.0020303293305534527
+Indian_Ocean : 0.002028609640685764
+Cyclone : 0.002022594822921093
+Korea : 0.0020036140170744603
+World_Meteorological_Organization : 0.0019719923374918904
+American_Meteorological_Society : 0.0019654023273209744
+WWE_Raw : 0.0018450900525125507
+United_States_Geological_Survey : 0.0018302057329023318
+Monthly_Weather_Review : 0.001825462379262559
+USA_Outdoor_Track_and_Field_Championships : 0.0018068652407454708
+World_Championship_Wrestling : 0.0018034223800952709
+Ocean : 0.0017862645505611105

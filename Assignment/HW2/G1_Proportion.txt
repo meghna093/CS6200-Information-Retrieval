@@ -1,0 +1,2 @@
+Proportion of pages with no inliks: 0.0
+Proportion of pages with no outliks: 0.066

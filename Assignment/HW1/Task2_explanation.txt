@@ -1,0 +1,76 @@
+PROBLEM DEFINITION FOR TASK - 2:
+
+(NOTE: Since I have combined Task 1 and Task 2, the below explanation can be referred for both the tasks)
+
+######################################################################
+
+PROBLEM STATEMENT:
+
+Your crawler should be able to consume two arguments: a URL and a keyword to be matched against anchor text or text within a URL. Starting with the same seed in Task 1, crawl to depth 6 at most, using the keyword "rain". "Falling_rain", "rain_fall", "rainband", "Rain", "rains", etc. should be considered as valid variations, whereas "grains", "Ukraine", etc. should not be considered as valid matches.
+You should return at most 1000 URLS using the same crawler setup in the previous question. Describe how you handled keyword variations.
+
+######################################################################
+
+PROBLEM DEFINITION:
+
+FUNCTION : wiki_crawler
+INPUT  : link
+		 key_phrase
+OUTPUT : list of temporary links
+
+
+EXPLANATION:
+
+	The function takes two inputs, link and the key word (which is predefined as 'rain'). 
+	
+	The function initially establishes a connection with the web, opens the URL and reads it.
+	
+	If any if the links continue ':' (administrative links) or '#' (same page referral links) or '/wiki/Main_Page' then the search will continue by ignoring these links.
+	
+	If not all the crawled links will be stored in a temporary list and checked for duplicate links.
+	
+**********************************************************************
+
+FUNCTION : key_match
+INPUT  : link
+		 key_phrase
+		 depth
+OUTPUT : Crawls the web pages with key word 'rain'
+
+EXPLANATION:
+
+	The function first checks for the key word and based on the key word crawls the web pages.
+	
+	It collects all the links that has the key word.
+	
+**********************************************************************
+
+FUNCTION : main
+INPUT  : main function does not accepts any inputs
+OUTPUT : list of links crawled
+
+EXPLANATION:
+
+	All the constants and lists that will be used in the program are defined.
+	
+	The function then checks whether the user wants to crawl with or without the key word and proceeds accordingly.
+	
+	It then crawls until the depth 6 is reached or until 1000 URLS has been crawled, which ever condition satisfies first.
+	
+	There is a politeness policy of 1 second.
+	
+	The result list is checked for existing links, if the link is not found in the list then the link is appended to the result list, this is carried out to avoid          duplicate links and crawling the same link multiple times.
+	
+	Once the particular depth is completely crawled, depth count will increase and crawler will continue to the next depth.
+	
+	Once either of the conditions, 1000 URLS or depth 6 is reached crawler will stop and print the list of links that has been crawled.
+
+	The key word variation is handled by passing a regular expression.
+	
+	
+																	 
+	
+	
+	
+
+	
